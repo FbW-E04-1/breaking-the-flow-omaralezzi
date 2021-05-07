@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<style>
+
+html,body{
+margin:0;
+padding:0;
+height:100%;
+
+}
+
+div {
+height: 200px;
+width: 200px;
+}
+
+.halloworld{
+background-color: orange;
+margin:0 auto;
+position: relative;
+left:50px
+top:70;
+
+}
+
+.box1{
+background-color: red;
+position : fixed;
+left:0;
+bottom: 0;
+}
+
+.box2{
+background-color: green;
+position : fixed;
+left:10px;
+bottom: 10px;
+z-index: 100; /*with and without this line to solve both */
+}
+
+.box3{
+background-color: blue;
+position : fixed;
+left:20px;
+bottom: 20px;
+}
+
+/*
+static
+
+
+
+*/
+
+
+</style>
+
 </head>
+
 <body>
+
+
+<div class="halloworld">Halooo world</div>
+<div class="box1"><box1></div>
+<div class="box2"><box2></div>
+<div class="box3"><box3></div>
+
+
+
 </body>
 </html>
+
+
+
